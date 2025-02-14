@@ -2,6 +2,8 @@
 
 ## Overview
 
+### Live Demo: https://product-filter-api.vercel.app/
+
 This project provides a **Product API** built with **Node.js** and **MongoDB**. It supports multiple filtering options, pagination, sorting, and selection of specific fields.
 
 ## Features
@@ -12,12 +14,12 @@ This project provides a **Product API** built with **Node.js** and **MongoDB**. 
 - **Field selection for optimizing API responses.**
 - **Pagination with customizable limits.**
 
+
 ## Installation
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/product-api.git
-   cd product-api
+   git clone https://github.com/RofixWork/product-filter-api.git
    ```
 2. **Install dependencies:**
    ```sh
