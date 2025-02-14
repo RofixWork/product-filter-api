@@ -14,7 +14,7 @@ const app = express();
 // middlewares
 app.use(express.json())
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: ["http://localhost:5173", "https://product-filter-frontend.vercel.app"]
 }))
 app.use(morgan('dev'))
 
