@@ -1,0 +1,182 @@
+[
+    {
+      "title": "wireless bluetooth earbuds",
+      "price": 49.99,
+      "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
+      "image": "https://images.unsplash.com/photo-1606220945779-33b6f2e49f8f",
+      "category": "electronics",
+      "featured": false,
+      "rating": 4.7
+    },
+    {
+      "title": "men's casual t-shirt",
+      "price": 19.99,
+      "description": "Comfortable and stylish t-shirt made from 100% cotton, available in various colors.",
+      "image": "https://images.pexels.com/photos/9558699/pexels-photo-9558699.jpeg",
+      "category": "clothing",
+      "featured": true,
+      "rating": 4.5
+    },
+    {
+      "title": "python programming book",
+      "price": 29.99,
+      "description": "A comprehensive guide to Python programming for beginners and advanced users.",
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+      "category": "books",
+      "featured": false,
+      "rating": 4.8
+    },
+    {
+      "title": "yoga mat",
+      "price": 24.99,
+      "description": "Eco-friendly and non-slip yoga mat for all types of yoga practices.",
+      "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg",
+      "category": "sport",
+      "featured": false,
+      "rating": 4.6
+    },
+    {
+      "title": "women's running shoes",
+      "price": 59.99,
+      "description": "Lightweight and durable running shoes designed for maximum comfort and performance.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "category": "fashion",
+      "featured": true,
+      "rating": 4.9
+    },
+    {
+      "title": "smartwatch",
+      "price": 129.99,
+      "description": "A feature-packed smartwatch with heart rate monitoring and GPS tracking.",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
+      "category": "electronics",
+      "featured": true,
+      "rating": 4.4
+    },
+    {
+      "title": "denim jeans",
+      "price": 39.99,
+      "description": "Classic denim jeans with a modern fit, perfect for casual wear.",
+      "image": "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab",
+      "category": "clothing",
+      "featured": false,
+      "rating": 4.3
+    },
+    {
+      "title": "the great gatsby",
+      "price": 9.99,
+      "description": "A classic novel by F. Scott Fitzgerald, exploring themes of love and the American Dream.",
+      "image": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf",
+      "category": "books",
+      "featured": true,
+      "rating": 4.7
+    },
+    {
+      "title": "dumbbell set",
+      "price": 89.99,
+      "description": "A set of adjustable dumbbells for home workouts, suitable for all fitness levels.",
+      "image": "https://images.pexels.com/photos/221247/pexels-photo-221247.jpeg",
+      "category": "sport",
+      "featured": true,
+      "rating": 4.6
+    },
+    {
+      "title": "leather handbag",
+      "price": 79.99,
+      "description": "Elegant leather handbag with multiple compartments, perfect for daily use.",
+      "image": "https://images.unsplash.com/photo-1591348278863-a8fb3887e2aa",
+      "category": "fashion",
+      "featured": true,
+      "rating": 4.5
+    },
+    {
+      "title": "noise-cancelling headphones",
+      "price": 199.99,
+      "description": "Premium noise-cancelling headphones with exceptional sound quality.",
+      "image": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg",
+      "category": "electronics",
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "title": "hooded sweatshirt",
+      "price": 34.99,
+      "description": "Warm and cozy hooded sweatshirt, ideal for casual outings.",
+      "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80",
+      "category": "clothing",
+      "featured": true,
+      "rating": 4.4
+    },
+    {
+      "title": "atomic habits book",
+      "price": 14.99,
+      "description": "A practical guide to building good habits and breaking bad ones.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+      "category": "books",
+      "featured": true,
+      "rating": 4.9
+    },
+    {
+      "title": "basketball",
+      "price": 29.99,
+      "description": "High-quality basketball designed for indoor and outdoor use.",
+      "image": "https://images.pexels.com/photos/1752757/pexels-photo-1752757.jpeg",
+      "category": "sport",
+      "featured": true,
+      "rating": 4.5
+    },
+    {
+      "title": "sunglasses",
+      "price": 49.99,
+      "description": "Stylish sunglasses with UV protection, available in multiple colors.",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+      "category": "fashion",
+      "featured": true,
+      "rating": 4.6
+    },
+    {
+      "title": "gaming keyboard",
+      "price": 99.99,
+      "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+      "image": "https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg",
+      "category": "electronics",
+      "featured": true,
+      "rating": 4.7
+    },
+    {
+      "title": "winter jacket",
+      "price": 129.99,
+      "description": "Heavy-duty winter jacket designed to keep you warm in extreme cold.",
+      "image": "https://images.unsplash.com/photo-1604644401898-1af3a9b3b5f0",
+      "category": "clothing",
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "title": "the alchemist",
+      "price": 12.99,
+      "description": "A bestselling novel by Paulo Coelho, exploring the journey of self-discovery.",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73",
+      "category": "books",
+      "featured": true,
+      "rating": 4.9
+    },
+    {
+      "title": "treadmill",
+      "price": 499.99,
+      "description": "Foldable treadmill with multiple speed settings and a built-in display.",
+      "image": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg",
+      "category": "sport",
+      "featured": true,
+      "rating": 4.7
+    },
+    {
+      "title": "designer watch",
+      "price": 299.99,
+      "description": "Luxury designer watch with a sleek and modern design.",
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d",
+      "category": "fashion",
+      "featured": true,
+      "rating": 4.8
+    }
+  ]

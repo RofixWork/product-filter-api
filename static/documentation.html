@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product API Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 10px; padding: 20px; background: #f4f4f4; }
+        h1 { color: #333; }
+        pre { background: #fff; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        ul { background: #fff; padding: 10px; border-radius: 5px; }
+        code { font-weight: bold; color: #d63384; }
+    </style>
+</head>
+<body>
+    <h1>Product API Documentation</h1>
+    <p>This API allows filtering, sorting, selecting fields, and pagination of products.</p>
+    
+    <h2>Endpoints</h2>
+    <ul>
+        <li><code>GET /api/v1/products</code> - Get all products</li>
+        <li><code>GET /api/v1/products?search=chair</code> - Search products by name/description</li>
+        <li><code>GET /api/v1/products?category=furniture</code> - Filter by category</li>
+        <li><code>GET /api/v1/products?sort=price,-createdAt</code> - Sort by price and createdAt (descending)</li>
+        <li><code>GET /api/v1/products?select=name,price</code> - Select specific fields</li>
+        <li><code>GET /api/v1/products?page=2&limit=5</code> - Pagination</li>
+    </ul>
+
+    <h2>Numeric Filters</h2>
+    <p>Filter products using numeric comparisons for fields like <code>price</code> and <code>rating</code>.</p>
+    <ul>
+        <li><code>GET /api/v1/products?numericFilters=price>50</code> - Get products with price greater than 50</li>
+        <li><code>GET /api/v1/products?numericFilters=rating>=4</code> - Get products with rating 4 or higher</li>
+        <li><code>GET /api/v1/products?numericFilters=price>=20,rating<5</code> - Get products with price ≥ 20 and rating &lt; 5</li>
+    </ul>
+
+    <h2>Example Response</h2>
+    <pre>
+    {
+        "pagination": { "nbHits": 5, "page": 1, "totalPages": 2 },
+        "products": [ { "name": "Office Chair", "price": 49.99, "rating": 4.5 } ]
+    }
+    </pre>
+
+</body>
+</html>
