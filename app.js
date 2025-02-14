@@ -7,11 +7,13 @@ import errorHandler from './middlewares/error-handler.js';
 import notFound from './middlewares/not-found.js';
 import morgan from 'morgan';
 import productRouter from './routes/products.route.js';
+import cors from 'cors';
 import path from 'path'
 const app = express();
 
 // middlewares
 app.use(express.json())
+app.use(cors())
 app.use(morgan('dev'))
 
 // routes
